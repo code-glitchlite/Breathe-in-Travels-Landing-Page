@@ -1,0 +1,133 @@
+body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  background-image: url("../images/pier.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  background-image: url("../images/pier.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5.5em;
+}
+
+/* header */
+
+.headerContainer {
+  min-height: 80px;
+  width: 1024px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  width: 34.5%;
+}
+
+.logo i {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 1rem;
+  position: relative;
+  bottom: 9px;
+  left: 5px;
+}
+
+.headerContainer nav a {
+  margin: 0 20px;
+}
+
+/* main */
+
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.5em;
+}
+.titleContainer {
+  width: 50%;
+}
+
+.titleText {
+  color: white;
+  margin-bottom: 3.4em;
+}
+.titleText h1 {
+  font-size: 4.5em;
+  margin-block: 0;
+  line-height: 1;
+  width: 80%;
+  margin-bottom: 0.5em;
+}
+
+.titleText p {
+  font-size: 1.2em;
+  width: 75%;
+  line-height: 1;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+
+.placesImageLink a {
+  border: 1px solid #ed9849;
+  border-radius: 5px;
+  padding: 11px 25px;
+  background-color: #ed9849;
+}
+
+/* Suggested Place */
+
+.suggestionContainer {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  position: relative;
+  bottom: 1.25em;
+}
+
+.suggestedPlaceImage img {
+  width: 15em;
+  object-fit: cover;
+}
+
+.suggestedPlaceDescription {
+  width: 200px;
+  padding: 1em;
+  backdrop-filter: blur(5px);
+}
+
+.suggestedPlaceDescription h2 {
+  margin-block: 0;
+}
+
+.suggestedPlaceDescription p {
+  margin-block: 0;
+  font-size: 0.95em;
+  font-weight: 300;
+  padding-bottom: 0.75em;
+}
+
+.suggestedPlaceDescription a {
+  border: 1px solid #ed9849;
+  border-radius: 5px;
+  background-color: #ed9849;
+  position: relative;
+  padding: 0.6em 1.5em;
+  display: block;
+  text-align: center;
+}
