@@ -131,3 +131,19 @@ a {
   display: block;
   text-align: center;
 }
+
+/* footer Container */
+
+.footerContainer {
+  text-align: center;
+}
+
+.footerContainer h3 {
+  display: inline;
+  font-weight: lighter;
+}
+
+.footerContainer a {
+  font-weight: bold;
+  font-size: 1.5em;
+}
